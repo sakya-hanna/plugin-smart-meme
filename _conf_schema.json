@@ -1,0 +1,8 @@
+{
+  "enabled": {"type": "bool", "description": "启用智能表情包", "default": false},
+  "probability": {"type": "int", "description": "触发概率（0-100）", "default": 50, "min": 0, "max": 100},
+  "llm_retry_count": {"type": "int", "description": "LLM 额外重试次数", "default": 0, "min": 0, "max": 5},
+  "emotion_weight": {"type": "float", "description": "情绪匹配权重（预留）", "default": 0.5},
+  "content_weight": {"type": "float", "description": "内容匹配权重（预留）", "default": 0.5},
+  "max_upload_size_mb": {"type": "int", "description": "图片大小上限（MB）", "default": 10, "min": 1, "max": 50}
+}

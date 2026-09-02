@@ -1,0 +1,1 @@
+"""Smart meme plugin package."""

@@ -1,0 +1,15 @@
+name: astrbot_plugin_smart_meme
+display_name: 智能表情包
+short_desc: 根据问题和 AI 回复匹配并发送带情绪标签、独立内容描述的表情包
+desc: |
+  在 AstrBot 默认 AI 回复后，按概率和情绪标签、图片独立内容描述匹配发送一张表情包。
+version: 0.1.0
+author: local
+repo: https://github.com/local/astrbot_plugin_smart_meme
+astrbot_version: ">=4.27,<5"
+support_platforms:
+  - aiocqhttp
+tags:
+  - meme
+  - image
+  - smart-match

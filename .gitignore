@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local/runtime files
+*.sqlite3
+*.db
+*.log
+.env
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+# Generated/import artifacts
+*.zip
+/tmp/
